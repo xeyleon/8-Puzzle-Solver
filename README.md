@@ -7,19 +7,19 @@ The upper left-most tile has the coordinates (0,0), and the lower right-most til
 
 An example of a configuration:
 ```java
-	static final int start_x = 1;
-	static final int start_y = 1;
-	
-	static final int[][] start_state = {
-					{ 7, 2, 4 },
-			  		{ 5, 0, 6 },
-			  		{ 8, 3, 1 }
-			  	};
+static final int start_x = 1;
+static final int start_y = 1;
 
-	static final int[][] goal_state = {
-			  		{ 0, 2, 4 },
-			  		{ 7, 3, 6 },
-			  		{ 5, 8, 1 }
+static final int[][] start_state = {
+				{ 7, 2, 4 },
+				{ 5, 0, 6 },
+				{ 8, 3, 1 }
+				};
+
+static final int[][] goal_state = {
+				{ 0, 2, 4 },
+				{ 7, 3, 6 },
+				{ 5, 8, 1 }
 				};
 ```
 

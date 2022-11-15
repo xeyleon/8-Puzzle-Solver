@@ -1,7 +1,9 @@
 # 8-Puzzle-Solver
 This program currently only supports the solutions for the 8-puzzle (3x3 tiles).
 
-The program must be configured by entering the starting x, y coordinates (coordinates of the blank tile), along with the initial state and goal state as 2D lists representing the arrangement of the respective 3x3 tiles, found at the beginning of the Main.java file. 
+<p align="center"><img src="img/example.png" width="400"></p>
+
+The program must be configured by entering the starting x, y coordinates (coordinates of the blank tile), along with the Start State and Goal State as 2D lists representing the arrangement of the respective 3x3 tiles, found at the beginning of the Main.java file. 
 
 The upper left-most tile has the coordinates (0,0), and the lower right-most tile has the coordinates (2,2).
 
